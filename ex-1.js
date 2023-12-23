@@ -2,3 +2,6 @@
 let scores = [89, 70, 60, 50, 100, 71];
 
 // Start coding here
+for (let a = 0; a < scores.length; a++) {
+    console.log(scores[a]-10)
+}

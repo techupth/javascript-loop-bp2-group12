@@ -3,4 +3,7 @@ let numbers = [10, 20, 30, 40, 50];
 let total = 0;
 // Start coding here
 
-console.log(total);
+for (let a of numbers) {
+    total = total + a
+}
+console.log(total)
